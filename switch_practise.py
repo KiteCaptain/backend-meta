@@ -1,7 +1,6 @@
-http_status = 200
+# match case can be used incase of many elif statements
 
-if http_status == 200:
-    print("Success")
+http_status = 200
 
 
 match http_status:
